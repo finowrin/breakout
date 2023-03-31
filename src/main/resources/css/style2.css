@@ -1,0 +1,196 @@
+* {
+    color1: #3C5A82;/*top labels color*/
+    color2: #E1FAFA;/*game bg color*/
+    color3: #8CD8BF;/*button bg color*/
+    color4: #FFFFFF;/*text color*/
+    color5: #D7D7D0;/*start screen color*/
+}
+
+#startButton {
+    -fx-background-color: color3;
+    -fx-background-size: 100% 100%;
+    -fx-text-fill: color4;
+    -fx-effect: dropshadow(three-pass-box, color1, 0, -1, 0, 0);
+    -fx-font-weight: bold;
+}
+
+#startButton:hover {
+    -fx-background-color: color3;
+    -fx-background-size: 100% 100%;
+    -fx-text-fill: color4;
+    -fx-font-weight: bold;
+}
+
+#startButton:pressed {
+    -fx-background-color: color3;
+    -fx-background-size: 100% 100%;
+    -fx-font-weight: bold;
+}
+
+#startPane {
+    -fx-background-color: color5;
+}
+
+.button:pressed {
+    -fx-translate-y: 4px;
+}
+
+#gamePane {
+    -fx-background-color: color2;
+}
+
+
+.themeButton {
+    -fx-padding: 10 10;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.themeButton:hover {
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-cursor: hand;
+    -fx-border-width: 10% 10%;
+    -fx-border-color: color1;
+
+}
+
+.themeButton:pressed {
+    -fx-background-size: 95%;
+    -fx-border-width: 5% 5%;
+    -fx-border-color: color1;
+}
+
+
+#theme1Button {
+    -fx-background-image: url(../images/theme1.PNG);
+}
+
+#theme2Button {
+    -fx-background-image: url(../images/theme2.PNG);
+}
+
+#theme3Button {
+    -fx-background-image: url(../images/theme3.PNG);
+}
+
+#canvas {
+    -fx-padding: 5px;
+    -fx-border-color: color1;
+}
+
+#topLabel {
+    -fx-padding: 5px 10px;
+    -fx-font-size: 20px;
+    -fx-text-fill: color4;
+    -fx-background-color: color1;
+    -fx-font-weight: bold;
+}
+
+.menuButton {
+    -fx-font-size: 20px;
+    -fx-background-image: none;
+    -fx-background-color: none;
+    -fx-padding: 1em 2em 1.15em;
+    -fx-text-transform: uppercase;
+    -fx-cursor: hand;
+    -fx-text-fill: color3;
+
+    -fx-margin: auto;
+}
+
+.menuButton:hover {
+    -fx-background-color: color3;
+    -fx-background-size: 100% 100%;
+    -fx-text-fill: color4;
+    -fx-effect: dropshadow(three-pass-box, color1, 0, -1, 0, 0);
+    -fx-font-weight: bold;
+}
+
+.menuButton:pressed {
+
+    -fx-background-color: color3;
+    -fx-background-size: 100% 100%;
+    -fx-font-weight: bold;
+}
+
+.menuButton:selected {
+    -fx-padding: 1em 2em 1.15em;
+    -fx-text-transform: uppercase;
+    -fx-cursor: hand;
+    -fx-text-fill: color3;
+    -fx-margin: auto;
+}
+
+.gameOverLabel {
+    -fx-font-size: 60;
+    -fx-background-color: color1;
+    -fx-text-fill: color4;
+    -fx-font-weight: bold;
+}
+
+#hsInputLabel {
+
+    -fx-background-color: color1;
+    -fx-text-transform: uppercase;
+    -fx-text-fill: color4;
+}
+
+#hsInputField {
+    -fx-text-fill: color1;
+}
+
+#hsInputButton {
+    -fx-background-color: color3;
+    -fx-background-size: 100% 100%;
+    -fx-text-fill: color4;
+    -fx-effect: dropshadow(three-pass-box, color1, 0, -1, 0, 0);
+    -fx-font-weight: bold;
+}
+
+#hsInputButton:hover {
+    -fx-background-color: color3;
+    -fx-background-size: 100% 100%;
+    -fx-text-fill: color4;
+    -fx-font-weight: bold;
+}
+
+#hsInputButton:pressed {
+    -fx-background-color: color3;
+    -fx-background-size: 100% 100%;
+    -fx-font-weight: bold;
+}
+
+#hsHeading {
+    -fx-font-size: 30px;
+    -fx-background-color: color1;
+    -fx-text-transform: uppercase;
+    -fx-text-fill: color4;
+}
+
+.highName {
+    -fx-padding: 5;
+    -fx-border-color: color1;
+    -fx-text-transform: uppercase;
+    -fx-font-size: 20px;
+    -fx-background-color: color2;
+    -fx-text-alignment: left;
+}
+
+.highScore {
+    -fx-padding: 5;
+    -fx-border-color: color1;
+    -fx-text-transform: uppercase;
+    -fx-font-size: 20px;
+    -fx-background-color: color2;
+    -fx-text-alignment: right;
+}
+
+#impHsEntry {
+    -fx-font-size: 20px;
+    -fx-text-transform: uppercase;
+    -fx-background-color: color3;
+}
+
