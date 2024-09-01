@@ -1,5 +1,5 @@
 # breakout
-This is a simple brick breaker (breakout-like) game in Java.
+This is a brick breaker (breakout-like) game in Java.
 
 <h3>Key points </h3>
 
